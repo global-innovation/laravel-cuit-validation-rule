@@ -1,5 +1,5 @@
-Laravel 5 CUIT CBU Validators for Argentina
-============================================
+Laravel Validator Rule for CUIT
+===============================
 
 # Installation
 
