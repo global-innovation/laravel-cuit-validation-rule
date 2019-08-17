@@ -1,0 +1,30 @@
+{
+    "name": "globalinnovation/laravel-cuit-validation-rule",
+    "description": "Rule for the validation of the CUIT (Argentina) within Laravel Validator.",
+    "keywords": [
+        "Laravel",
+        "Validator",
+        "Rule",
+        "CUIT",
+        "Argentina"
+    ],
+    "homepage": "https://github.com/globalinnovation/laravel-cuit-validation-rule",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matias Perrone",
+            "email": "matias@globalinnovation.com.ar",
+            "homepage": "http://www.globalinnovation.com.ar",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": ">=5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "GlobalInnovation\\Validation\\Rules\\": "src/"
+        }
+    }
+}
