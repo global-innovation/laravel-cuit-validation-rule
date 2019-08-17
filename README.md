@@ -1,5 +1,3 @@
-Validator::extend('foo', 'FooValidator@validate');
-
 Laravel 5 CUIT CBU Validators for Argentina
 ============================================
 
