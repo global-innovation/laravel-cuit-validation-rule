@@ -6,7 +6,7 @@ Laravel Validator Rule for CUIT
 To install this package include it in your `composer.json`
 
 ```shell
-composer require globalinnovation/cuit-rule
+composer require globalinnovation/laravel-cuit-validation-rule
 ```
 
 Add the following lines to the `boot` method of the `AppServiceProvider` class ([Check Laravel documentation](https://laravel.com/docs/5.8/validation#custom-validation-rules)):
