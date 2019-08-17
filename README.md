@@ -15,3 +15,8 @@ Add the following lines to the `boot` method of the `AppServiceProvider` class (
 Validator::extend('cuit', 'GlobalInnovation\Validation\Rules\CUIT@validate');
 Validator::replacer('cuit', "The CUIT is invalid.");
 ```
+
+Remember to add the following line bellow `namespace` line of the `AppServiceProvider` class:
+```
+use Illuminate\Support\Facades\Validator;
+```
