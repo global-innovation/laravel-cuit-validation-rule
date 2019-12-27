@@ -1,6 +1,6 @@
 {
   "name": "laravel-cuit-validation-rule",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rule for the validation of the CUIT (Argentina) within Laravel Validator.",
   "main": "src/CUIT.php",
   "scripts": {
