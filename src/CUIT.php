@@ -55,6 +55,6 @@ class CUIT implements Rule
      */
     public function message()
     {
-        return 'The validation error message.';
+        return 'El CUIT es inválido.';
     }
 }
