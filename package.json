@@ -12,7 +12,10 @@
     },
     "keywords": [
         "cuit",
-        "laravel-validator",
+        "php",
+        "laravel",
+        "rule",
+        "validator",
         "argentina"
     ],
     "author": "Matias Perrone",
