@@ -1,6 +1,6 @@
 {
     "name": "globalinnovation/laravel-cuit-validation-rule",
-    "version": "1.3.2",
+    "version": "1.4.0",
     "description": "Rule for the validation of the CUIT (Argentina) within Laravel Validator.",
     "keywords": [
         "Laravel",
