@@ -23,6 +23,18 @@ class CUIT implements Rule
      * @param  mixed  $value
      * @return bool
      */
+    public function passes($attribute, $value) 
+    {
+        return $this->validate($attribute, $value);
+    }
+        
+    /**
+     * Determine if the validation rule passes.
+     *
+     * @param  string  $attribute
+     * @param  mixed  $value
+     * @return bool
+     */
     public function validate($attribute, $value)
     {
         $passes = false;
